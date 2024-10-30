@@ -1,0 +1,27 @@
+{
+  "name": "patrickposner/agy",
+  "description": "agy plugin",
+  "type": "wordpress-plugin",
+  "require": {
+  },
+  "license": "gpl",
+  "authors": [
+    {
+      "name": "Patrick Posner",
+      "email": "hello@patrickposner.de"
+    }
+  ],
+  "autoload": {
+    "classmap": [],
+    "files": [
+      "src/admin/class-agy-settings.php",
+      "src/admin/class-agy-admin.php",
+      "src/admin/class-agy-meta.php",
+       "src/admin/class-agy-admin.php",
+      "src/admin/class-agy-tax-meta.php",
+      "src/class-agy-templates.php",
+      "src/class-agy-loader.php",
+      "src/class-agy-public.php"
+    ]
+  }
+}

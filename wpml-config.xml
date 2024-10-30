@@ -1,0 +1,17 @@
+<wpml-config>
+  <admin-texts>
+    <key name="psag_options">
+      <key name="psag_restrict_default_age"/>
+      <key name="psag_options_redirect_url"/>
+    </key>
+    <key name="psag_texts">
+      <key name="psag_texts_headline"/>
+      <key name="psag_texts_message"/>
+      <key name="psag_texts_enter"/>
+      <key name="psag_texts_exit"/>
+      <key name="psag_texts_separator"/>
+      <key name="psag_texts_subtitle"/>
+      <key name="psag_texts_slogan"/>
+    </key>
+  </admin-texts>
+</wpml-config>

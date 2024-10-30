@@ -1,0 +1,243 @@
+.wrap.agy-admin {
+    background:white;
+    float: left;
+    width: 60%;
+    min-width:850px;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0 25px 25px 25px;
+}
+
+.agy-admin-header {
+    background: white;
+    padding: 25px;
+    float: left;
+    width: 60%;
+    min-width:850px;
+    box-sizing: border-box;
+    margin: 25px 25px 0 25px;
+}
+
+.agy-admin-header .logo {
+    float: left;
+    width: 200px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+.agy-admin-header .info-links {
+    height: 50px;
+    margin: auto;
+    display: table;
+    float: right;
+}
+.agy-admin-header .info-links a {
+    padding-left: 10px;
+    color: #7200e5;
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.agy-admin #setting-error-settings_updated {
+    margin: 10px 0 10px 10px;
+}
+
+.agy-admin .metabox-holder h2 {
+    font-size: 1.4rem;
+    padding-left: 6px;
+}
+
+.agy-admin .nav-tab {
+    float: left;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.71428571;
+    font-weight: 600;
+    background: #bdb9b9;
+    color:#fff;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 25%;
+    border-bottom: solid 1px #fff;
+    border-right: solid 1px #fff;
+    margin: 0;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.agy-admin .nav-tab:hover, .agy-admin .nav-tab-active {
+    background:#7200e5;
+}
+
+.agy-admin .button-primary {
+    background:#7200e5;
+    text-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    padding: 25px;
+    line-height: 0;
+    display: block;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.agy-admin .button-primary:hover {
+    background:#1f033f;
+}
+
+.agy-admin .nav-tab-wrapper {
+    border:none;
+    margin:0;
+    padding-top: 0 !important;
+    border: none !important;
+}
+
+.agy-admin .metabox-holder {
+    padding: 20px;
+}
+
+.agy-admin .wpsa-settings-separator {
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    max-width: 50%;
+}
+
+.agy-admin .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.agy-admin .switch input {
+    display: none;
+}
+
+.agy-admin .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.agy-admin .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.agy-admin input:checked + .slider {
+    background-color: #7200e5;
+}
+
+.agy-admin input:focus + .slider {
+    box-shadow: 0 0 1px #7200e5;
+}
+
+.agy-admin input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.agy-admin .slider.round {
+    border-radius: 34px;
+}
+
+.agy-admin .slider.round:before {
+    border-radius: 50%;
+}
+
+.agy-admin input[type="number"] {
+    max-width: 60px;
+}
+.agy-admin .select2-container {
+    max-width: 350px;
+}
+.agy-admin .select2-hidden-accessible {
+    position: relative !important;
+}
+
+.agy-admin .select2-hidden-accessible td input, .agy-admin .select2-hidden-accessible option {
+    display: none;
+}
+
+.agy-admin .form-table > tbody > .select2 {
+    display: none !important;
+}
+
+.select2-container--default, .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: solid #cfcfcf 1px;
+    border-radius: 0px;
+}
+.select2-container--default .select2-selection--multiple, .selection {
+     border-radius: 0px;
+       border: none !important;
+}
+
+.agy-admin .color-alpha {
+    height: 28px !important;
+}
+
+#agy-migrator {
+    background:
+    #007cba;
+    border-color:
+    #007cba;
+    color:
+    #fff;
+    text-decoration: none;
+    text-shadow: none;font-size: 13px;
+    line-height: 2;
+    min-height: 28px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    margin-left:10px;
+}
+
+#agy-migrator:hover, #agy-migrator:active {
+    background:#0071a1;
+    border-color:#0071a1;
+    color:#fff;
+}
+
+.agy-admin .pro {
+    background:#7200e5;
+    color:white;
+    padding: 5px;
+    font-size: 0.7em;
+    position: relative;
+    top: -15px;
+    left: -10px;
+}
+.agy-admin .iris-strip.iris-slider.iris-alpha-slider {
+    margin-left: 5px !important;
+}
+.agy-admin .button.button-small.wp-picker-default {
+    display: none;
+}
+.agy-admin .color-alpha {
+    width: 100% !important;
+}

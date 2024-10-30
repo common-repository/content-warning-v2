@@ -1,0 +1,483 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Passster - Age Verfication\n"
+"POT-Creation-Date: 2021-12-18 12:21+0100\n"
+"PO-Revision-Date: 2018-11-01 19:48+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: content-warning-v2.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: content-warning-v2.php:63
+msgid "Agy requires WooCommerce to run, please install it."
+msgstr ""
+
+#: src/admin/class-agy-admin.php:24
+msgid "General"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:34 src/admin/class-agy-admin.php:48
+msgid "Display Mode"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:62
+msgid "Minimum Age"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:72
+msgid "The redirect URL if the exit button was clicked"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:73
+msgid "Exit URL"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:83
+msgid "Cookie Lifetime (in days)"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:93
+msgid "Show for unregistered users only"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:102
+msgid "Invert Blacklist to Whitelist"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:103
+msgid ""
+"Instead of exclude posts, pages and products, the age gate is disabled by "
+"default and you can tick the checkbox directly inside your post to activate "
+"it."
+msgstr ""
+
+#: src/admin/class-agy-admin.php:112
+msgid "Activate debug mode"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:121
+msgid "Delete settings on uninstall"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:128 src/admin/class-agy-admin.php:343
+msgid "Texts"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:137
+msgid "Headline"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:138 src/admin/class-agy-admin.php:806
+#: src/woocommerce/class-agy-woocommerce-registration.php:105
+msgid "Age Verification"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:147
+msgid "Message"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:148 src/admin/class-agy-admin.php:807
+msgid ""
+"By clicking enter, I certify that I am over the age of [age] and will comply "
+"with the above statement."
+msgstr ""
+
+#: src/admin/class-agy-admin.php:157
+msgid "Allow shortcodes in message."
+msgstr ""
+
+#: src/admin/class-agy-admin.php:167
+msgid "Enter Button Label"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:168 src/admin/class-agy-admin.php:808
+msgid "Enter"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:177
+msgid "Exit Button Label"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:178 src/admin/class-agy-admin.php:809
+msgid "Exit"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:187
+msgid "Separator Text"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:188 src/admin/class-agy-admin.php:810
+msgid "Or"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:197
+msgid "Subtitle"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:198 src/admin/class-agy-admin.php:811
+msgid "Always enjoy responsibily."
+msgstr ""
+
+#: src/admin/class-agy-admin.php:207
+msgid "Slogan"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:208 src/admin/class-agy-admin.php:812
+msgid ""
+"THINC Pure products are only for use in states where the sale and "
+"consumption of such products are legal. "
+msgstr ""
+
+#: src/admin/class-agy-admin.php:215
+msgid "Design"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:224
+msgid "Background"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:233
+msgid "Background color"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:243
+msgid "Background image for overlay"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:252
+msgid "Z-Index (Overlay)"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:262
+msgid "Content Box"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:271
+msgid "Columns"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:273
+msgid "One Column"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:274
+msgid "Two Columns"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:285
+msgid "Upload your Logo"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:294
+msgid "Background image left"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:303
+msgid "Content box width (in px)"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:313
+msgid "Content box height (in px)"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:323
+msgid "Logo max width (in px)"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:333
+msgid "Z-Index"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:352
+msgid "Headline color"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:362
+msgid "Instruction color"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:372
+msgid "Separator color"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:382
+msgid "Subtitle color"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:392
+msgid "Slogan color"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:402
+msgid "Enter Button background color"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:412
+msgid "Enter Button font color"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:422
+msgid "Exit Button background color"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:432
+msgid "Exit Button font color"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:442
+msgid "Blur effect"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:451
+msgid "Use blur effect"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:460
+msgid "Blur effect container"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:470
+msgid "Blur effect strength"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:477
+msgid "WooCommerce"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:486
+msgid "Registration and Checkout"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:495 src/admin/class-agy-admin.php:560
+msgid ""
+"Deactivate the age gate (use only checkboxes or Sofort Ident for "
+"verification)"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:504 src/admin/class-agy-admin.php:571
+msgid "Add a age verification checkbox to the registration"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:513 src/admin/class-agy-admin.php:582
+msgid "Add a age verification checkbox to the checkout"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:522 src/admin/class-agy-admin.php:592
+msgid "Save Age Information in customer account"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:531 src/admin/class-agy-admin.php:602
+msgid "Modify the checkbox text"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:532 src/admin/class-agy-admin.php:854
+msgid "I'm at least 18 years old."
+msgstr ""
+
+#: src/admin/class-agy-admin.php:541 src/admin/class-agy-admin.php:613
+msgid "Modify the error message"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:542 src/admin/class-agy-admin.php:855
+msgid "You have to be at least 18 years old to complete the registration."
+msgstr ""
+
+#: src/admin/class-agy-admin.php:551 src/admin/class-agy-admin.php:624
+msgid "Add checkbox only when blacklisted product in cart."
+msgstr ""
+
+#: src/admin/class-agy-admin.php:603 src/admin/class-agy-admin.php:614
+msgid "This is only available within the pro version."
+msgstr ""
+
+#: src/admin/class-agy-admin.php:635
+msgid "Sofort Ident"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:644
+msgid "Instructions"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:645
+msgid ""
+"Activate Sofort Ident for WooCommerce if you need a real age verifcation in "
+"your checkout. It sends data via API, verify the customers data and send (if "
+"sucessfull) an positive feedback to the shop."
+msgstr ""
+
+#: src/admin/class-agy-admin.php:655 src/admin/class-agy-admin.php:719
+msgid "Activates the Sofort Ident API"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:665 src/admin/class-agy-admin.php:729
+msgid "User ID"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:666 src/admin/class-agy-admin.php:730
+msgid "User ID from your Sofort account"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:675 src/admin/class-agy-admin.php:740
+msgid "Project ID"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:676 src/admin/class-agy-admin.php:741
+msgid "Project ID from your Sofort account"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:685 src/admin/class-agy-admin.php:751
+msgid "Project password"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:686 src/admin/class-agy-admin.php:752
+msgid "Project password from your Sofort account"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:695
+msgid "Encryption Algorithm"
+msgstr ""
+
+#: src/admin/class-agy-admin.php:710
+msgid "Add Sofort Ident only when blacklisted product in cart."
+msgstr ""
+
+#: src/admin/class-agy-admin.php:762
+msgid "Testmode"
+msgstr ""
+
+#: src/admin/class-agy-meta.php:37
+msgid "Agy Display options"
+msgstr ""
+
+#: src/admin/class-agy-meta.php:73 src/admin/class-agy-tax-meta.php:64
+#: src/admin/class-agy-tax-meta.php:99
+msgid "<b>Deactivate</b> Age Verification for this content."
+msgstr ""
+
+#: src/admin/class-agy-meta.php:76 src/admin/class-agy-tax-meta.php:67
+#: src/admin/class-agy-tax-meta.php:103
+msgid "<b>Activate</b> Age Verification for this content."
+msgstr ""
+
+#: src/admin/class-agy-meta.php:90
+msgid "<b>Hide</b> this product from shop if age not match."
+msgstr ""
+
+#: src/admin/class-agy-settings.php:671
+msgid "Choose File"
+msgstr ""
+
+#: src/admin/class-agy-settings.php:692
+msgid "Choose Image"
+msgstr ""
+
+#: src/admin/class-agy-tax-meta.php:100 src/admin/class-agy-tax-meta.php:151
+msgid "Blacklist"
+msgstr ""
+
+#: src/admin/class-agy-tax-meta.php:104 src/admin/class-agy-tax-meta.php:154
+msgid "Whitelist"
+msgstr ""
+
+#: src/class-agy-loader.php:125
+#, php-format
+msgid "Sorry, only persons over the age of %s may enter this site"
+msgstr ""
+
+#: src/templates/select-age.php:15
+msgid "Day"
+msgstr ""
+
+#: src/templates/select-age.php:50
+msgid "Month"
+msgstr ""
+
+#: src/templates/select-age.php:51
+msgid "January"
+msgstr ""
+
+#: src/templates/select-age.php:52
+msgid "February"
+msgstr ""
+
+#: src/templates/select-age.php:53
+msgid "March"
+msgstr ""
+
+#: src/templates/select-age.php:54
+msgid "April"
+msgstr ""
+
+#: src/templates/select-age.php:55
+msgid "May"
+msgstr ""
+
+#: src/templates/select-age.php:56
+msgid "June"
+msgstr ""
+
+#: src/templates/select-age.php:57
+msgid "July"
+msgstr ""
+
+#: src/templates/select-age.php:58
+msgid "August"
+msgstr ""
+
+#: src/templates/select-age.php:59
+msgid "September"
+msgstr ""
+
+#: src/templates/select-age.php:60
+msgid "October"
+msgstr ""
+
+#: src/templates/select-age.php:61
+msgid "November"
+msgstr ""
+
+#: src/templates/select-age.php:62
+msgid "December"
+msgstr ""
+
+#: src/woocommerce/class-agy-sofort-ident.php:101
+#: src/woocommerce/class-agy-sofort-ident.php:121
+msgid "Verify your age"
+msgstr ""
+
+#: src/woocommerce/class-agy-woocommerce-registration.php:108
+#, php-format
+msgid "The current user is at least %s years old."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Agy"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://patrickposner.dev"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A simple, responsive and clean solution for age verification with "
+"WooCommerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Patrick Posner"
+msgstr ""

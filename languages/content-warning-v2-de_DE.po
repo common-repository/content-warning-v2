@@ -1,0 +1,719 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Passster - Age Verfication\n"
+"POT-Creation-Date: 2021-12-18 12:21+0100\n"
+"PO-Revision-Date: 2021-12-18 12:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: content-warning-v2.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: content-warning-v2.php:63
+msgid "Agy requires WooCommerce to run, please install it."
+msgstr "Agy benötigt WooCommerce um zu funktionieren, bitte installiere es."
+
+#: src/admin/class-agy-admin.php:24
+msgid "General"
+msgstr "Generelle Optionen"
+
+#: src/admin/class-agy-admin.php:34 src/admin/class-agy-admin.php:48
+msgid "Display Mode"
+msgstr "Darstellung"
+
+#: src/admin/class-agy-admin.php:62
+msgid "Minimum Age"
+msgstr "Mindestalter"
+
+#: src/admin/class-agy-admin.php:72
+msgid "The redirect URL if the exit button was clicked"
+msgstr "Die Weiterleitungs-URL wenn der User den \"Nein\"-Button klickt"
+
+#: src/admin/class-agy-admin.php:73
+msgid "Exit URL"
+msgstr "Weiterleitungs-URL"
+
+#: src/admin/class-agy-admin.php:83
+msgid "Cookie Lifetime (in days)"
+msgstr "Cookie Laufzeit (In Tagen)"
+
+#: src/admin/class-agy-admin.php:93
+msgid "Show for unregistered users only"
+msgstr "Nur für nicht registrierte Nutzer anzeigen"
+
+#: src/admin/class-agy-admin.php:102
+msgid "Invert Blacklist to Whitelist"
+msgstr "Invertiere Blacklist zur Whitelist"
+
+#: src/admin/class-agy-admin.php:103
+msgid ""
+"Instead of exclude posts, pages and products, the age gate is disabled by "
+"default and you can tick the checkbox directly inside your post to activate "
+"it."
+msgstr ""
+"Statt Beiträge, Seiten und Produkte vom Age Gate auszuschließen, kannst du "
+"diesen Schalter benutzen um die Wirkung umzukehren. Das Age Gate wird nun "
+"generell verborgen und mit den Checkboxen innerhalb der Seiten, Beiträge und "
+"Produkte kannst du es aktivieren."
+
+#: src/admin/class-agy-admin.php:112
+msgid "Activate debug mode"
+msgstr "Debug-Modus aktivieren"
+
+#: src/admin/class-agy-admin.php:121
+msgid "Delete settings on uninstall"
+msgstr "Lösche Einstellungen bei Deeinstallation"
+
+#: src/admin/class-agy-admin.php:128 src/admin/class-agy-admin.php:343
+msgid "Texts"
+msgstr "Texte"
+
+#: src/admin/class-agy-admin.php:137
+msgid "Headline"
+msgstr "Überschrift"
+
+#: src/admin/class-agy-admin.php:138 src/admin/class-agy-admin.php:806
+#: src/woocommerce/class-agy-woocommerce-registration.php:105
+msgid "Age Verification"
+msgstr "Altersverifikation"
+
+#: src/admin/class-agy-admin.php:147
+msgid "Message"
+msgstr "Nachricht"
+
+#: src/admin/class-agy-admin.php:148 src/admin/class-agy-admin.php:807
+msgid ""
+"By clicking enter, I certify that I am over the age of [age] and will comply "
+"with the above statement."
+msgstr ""
+"Mit klicken auf \"Ja\" bestätige ich, dass ich das notwendige Alter von "
+"[age] habe und diesen Inhalt sehen darf."
+
+#: src/admin/class-agy-admin.php:157
+msgid "Allow shortcodes in message."
+msgstr "Erlaube Shortcodes in Nachricht."
+
+#: src/admin/class-agy-admin.php:167
+msgid "Enter Button Label"
+msgstr "Enter Button Beschriftung"
+
+#: src/admin/class-agy-admin.php:168 src/admin/class-agy-admin.php:808
+msgid "Enter"
+msgstr "Ja"
+
+#: src/admin/class-agy-admin.php:177
+msgid "Exit Button Label"
+msgstr "Exit-Button Beschriftung"
+
+#: src/admin/class-agy-admin.php:178 src/admin/class-agy-admin.php:809
+msgid "Exit"
+msgstr "Nein"
+
+#: src/admin/class-agy-admin.php:187
+msgid "Separator Text"
+msgstr "Trenner-Text"
+
+#: src/admin/class-agy-admin.php:188 src/admin/class-agy-admin.php:810
+msgid "Or"
+msgstr "Oder"
+
+#: src/admin/class-agy-admin.php:197
+msgid "Subtitle"
+msgstr "Untertitel"
+
+#: src/admin/class-agy-admin.php:198 src/admin/class-agy-admin.php:811
+msgid "Always enjoy responsibily."
+msgstr "Immer verantwortungsvoll genießen."
+
+#: src/admin/class-agy-admin.php:207
+msgid "Slogan"
+msgstr "Slogan"
+
+#: src/admin/class-agy-admin.php:208 src/admin/class-agy-admin.php:812
+msgid ""
+"THINC Pure products are only for use in states where the sale and "
+"consumption of such products are legal. "
+msgstr ""
+"Diese Produkte sind ausschließlich für den Verkauf an Erwachsene gedacht."
+
+#: src/admin/class-agy-admin.php:215
+msgid "Design"
+msgstr "Design"
+
+#: src/admin/class-agy-admin.php:224
+msgid "Background"
+msgstr "Hintergrund-Bild"
+
+#: src/admin/class-agy-admin.php:233
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+#: src/admin/class-agy-admin.php:243
+msgid "Background image for overlay"
+msgstr "Hintergrundbild (Linke Spalte)"
+
+#: src/admin/class-agy-admin.php:252
+msgid "Z-Index (Overlay)"
+msgstr "Z-Index (Overlay)"
+
+#: src/admin/class-agy-admin.php:262
+msgid "Content Box"
+msgstr "Inhaltsbox"
+
+#: src/admin/class-agy-admin.php:271
+msgid "Columns"
+msgstr "Spalten"
+
+#: src/admin/class-agy-admin.php:273
+msgid "One Column"
+msgstr "Eine Spalte"
+
+#: src/admin/class-agy-admin.php:274
+msgid "Two Columns"
+msgstr "Zwei Spalten"
+
+#: src/admin/class-agy-admin.php:285
+msgid "Upload your Logo"
+msgstr "Lade dein Logo hoch"
+
+#: src/admin/class-agy-admin.php:294
+msgid "Background image left"
+msgstr "Hintergrundbild (Linke Spalte)"
+
+#: src/admin/class-agy-admin.php:303
+msgid "Content box width (in px)"
+msgstr "Inhaltsbox-Breite (px)"
+
+#: src/admin/class-agy-admin.php:313
+msgid "Content box height (in px)"
+msgstr "Inhaltsbox-Breite (px)"
+
+#: src/admin/class-agy-admin.php:323
+msgid "Logo max width (in px)"
+msgstr "Inhaltsbox-Breite (px)"
+
+#: src/admin/class-agy-admin.php:333
+msgid "Z-Index"
+msgstr "Z-Index"
+
+#: src/admin/class-agy-admin.php:352
+msgid "Headline color"
+msgstr "Farbe der Überschrift"
+
+#: src/admin/class-agy-admin.php:362
+msgid "Instruction color"
+msgstr "Farbe des Einleitungstexts"
+
+#: src/admin/class-agy-admin.php:372
+msgid "Separator color"
+msgstr "Farbe des Trenners"
+
+#: src/admin/class-agy-admin.php:382
+msgid "Subtitle color"
+msgstr "Farbe des Untertitels"
+
+#: src/admin/class-agy-admin.php:392
+msgid "Slogan color"
+msgstr "Farbe des Slogans"
+
+#: src/admin/class-agy-admin.php:402
+msgid "Enter Button background color"
+msgstr "Hintergrundfarbe des Bestätigen-Buttons"
+
+#: src/admin/class-agy-admin.php:412
+msgid "Enter Button font color"
+msgstr "Schriftfarbe des Bestätigen-Buttons"
+
+#: src/admin/class-agy-admin.php:422
+msgid "Exit Button background color"
+msgstr "Hintergrundfarbe des Schließen-Buttons"
+
+#: src/admin/class-agy-admin.php:432
+msgid "Exit Button font color"
+msgstr "Schriftfarbe des Bestätigen-Buttons"
+
+#: src/admin/class-agy-admin.php:442
+msgid "Blur effect"
+msgstr "Blur-Effekt benutzen"
+
+#: src/admin/class-agy-admin.php:451
+msgid "Use blur effect"
+msgstr "Blur Effekt benutzen"
+
+#: src/admin/class-agy-admin.php:460
+msgid "Blur effect container"
+msgstr "Container für den Blur-Effekt"
+
+#: src/admin/class-agy-admin.php:470
+msgid "Blur effect strength"
+msgstr "Blur-Effekt-Stärke"
+
+#: src/admin/class-agy-admin.php:477
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: src/admin/class-agy-admin.php:486
+msgid "Registration and Checkout"
+msgstr "Registrierung und Kasse"
+
+#: src/admin/class-agy-admin.php:495 src/admin/class-agy-admin.php:560
+msgid ""
+"Deactivate the age gate (use only checkboxes or Sofort Ident for "
+"verification)"
+msgstr ""
+"Deaktivere das Age Gate (nutzt dann nur noch die Checkboxen oder Sofort "
+"Ident für Identifikation)"
+
+#: src/admin/class-agy-admin.php:504 src/admin/class-agy-admin.php:571
+msgid "Add a age verification checkbox to the registration"
+msgstr "Altersverifikation als Checkbox in die Registrierung einfügen"
+
+#: src/admin/class-agy-admin.php:513 src/admin/class-agy-admin.php:582
+msgid "Add a age verification checkbox to the checkout"
+msgstr "Altersverifikation als Checkbox in die Kasse einfügen"
+
+#: src/admin/class-agy-admin.php:522 src/admin/class-agy-admin.php:592
+msgid "Save Age Information in customer account"
+msgstr "Altersinformationen im Kundenaccount speichern"
+
+#: src/admin/class-agy-admin.php:531 src/admin/class-agy-admin.php:602
+msgid "Modify the checkbox text"
+msgstr "Passe den Checkbox-Text an"
+
+#: src/admin/class-agy-admin.php:532 src/admin/class-agy-admin.php:854
+msgid "I'm at least 18 years old."
+msgstr "Ich bin mindestens 18 Jahre alt."
+
+#: src/admin/class-agy-admin.php:541 src/admin/class-agy-admin.php:613
+msgid "Modify the error message"
+msgstr "Passe die Fehlermeldung an"
+
+#: src/admin/class-agy-admin.php:542 src/admin/class-agy-admin.php:855
+msgid "You have to be at least 18 years old to complete the registration."
+msgstr ""
+"Du musst mindestens 18 Jahre alt sein, um die Registrierung abzuschließen."
+
+#: src/admin/class-agy-admin.php:551 src/admin/class-agy-admin.php:624
+msgid "Add checkbox only when blacklisted product in cart."
+msgstr "Checkbox nur Hinzufügen wenn Blacklist-Produkte im Warenkorb."
+
+#: src/admin/class-agy-admin.php:603 src/admin/class-agy-admin.php:614
+msgid "This is only available within the pro version."
+msgstr "Diese Funktion ist nur in der Pro-Version verfügbar."
+
+#: src/admin/class-agy-admin.php:635
+msgid "Sofort Ident"
+msgstr "Sofort Ident"
+
+#: src/admin/class-agy-admin.php:644
+msgid "Instructions"
+msgstr "Beschreibung"
+
+#: src/admin/class-agy-admin.php:645
+msgid ""
+"Activate Sofort Ident for WooCommerce if you need a real age verifcation in "
+"your checkout. It sends data via API, verify the customers data and send (if "
+"sucessfull) an positive feedback to the shop."
+msgstr ""
+"Aktiviere Sofort Ident für WooCommerce wenn du eine echte Altersverifikation "
+"benötigst. Es sendet Daten via API und überprüft das Alter mit dem Konto des "
+"Nutzers für eine echte Verifizierung."
+
+#: src/admin/class-agy-admin.php:655 src/admin/class-agy-admin.php:719
+msgid "Activates the Sofort Ident API"
+msgstr "Aktiviere die Sofort Ident API"
+
+#: src/admin/class-agy-admin.php:665 src/admin/class-agy-admin.php:729
+msgid "User ID"
+msgstr "User ID"
+
+#: src/admin/class-agy-admin.php:666 src/admin/class-agy-admin.php:730
+msgid "User ID from your Sofort account"
+msgstr "User ID aus deinem Sofort Account"
+
+#: src/admin/class-agy-admin.php:675 src/admin/class-agy-admin.php:740
+msgid "Project ID"
+msgstr "Projekt ID"
+
+#: src/admin/class-agy-admin.php:676 src/admin/class-agy-admin.php:741
+msgid "Project ID from your Sofort account"
+msgstr "Projekt ID aus deinem Sofort Account"
+
+#: src/admin/class-agy-admin.php:685 src/admin/class-agy-admin.php:751
+msgid "Project password"
+msgstr "Projekt Password"
+
+#: src/admin/class-agy-admin.php:686 src/admin/class-agy-admin.php:752
+msgid "Project password from your Sofort account"
+msgstr "Projekt Password aus deinem Sofort Account"
+
+#: src/admin/class-agy-admin.php:695
+msgid "Encryption Algorithm"
+msgstr "Verschlüsselungs-Algorithmus"
+
+#: src/admin/class-agy-admin.php:710
+msgid "Add Sofort Ident only when blacklisted product in cart."
+msgstr ""
+"Sofort Ident Abfrage nur Hinzufügen wenn Blacklist-Produkte im Warenkorb."
+
+#: src/admin/class-agy-admin.php:762
+msgid "Testmode"
+msgstr "Testmodus"
+
+#: src/admin/class-agy-meta.php:37
+msgid "Agy Display options"
+msgstr "Agy Anzeigeoptionen"
+
+#: src/admin/class-agy-meta.php:73 src/admin/class-agy-tax-meta.php:64
+#: src/admin/class-agy-tax-meta.php:99
+msgid "<b>Deactivate</b> Age Verification for this content."
+msgstr "<b>Deaktivere</b> die Altersverifikation für diesen Inhalt."
+
+#: src/admin/class-agy-meta.php:76 src/admin/class-agy-tax-meta.php:67
+#: src/admin/class-agy-tax-meta.php:103
+msgid "<b>Activate</b> Age Verification for this content."
+msgstr "<b>Aktiviere</b> die Altersverifikation für diesen Inhalt."
+
+#: src/admin/class-agy-meta.php:90
+msgid "<b>Hide</b> this product from shop if age not match."
+msgstr "<b>Verberge</b> dieses Produkt wenn der Kunde nicht alt genug ist."
+
+#: src/admin/class-agy-settings.php:671
+msgid "Choose File"
+msgstr "Datei auswählen"
+
+#: src/admin/class-agy-settings.php:692
+msgid "Choose Image"
+msgstr "Bild auswählen"
+
+#: src/admin/class-agy-tax-meta.php:100 src/admin/class-agy-tax-meta.php:151
+msgid "Blacklist"
+msgstr "Blacklist"
+
+#: src/admin/class-agy-tax-meta.php:104 src/admin/class-agy-tax-meta.php:154
+msgid "Whitelist"
+msgstr "Whitelist"
+
+#: src/class-agy-loader.php:125
+#, php-format
+msgid "Sorry, only persons over the age of %s may enter this site"
+msgstr "Leider können nur Personen, die älter als% s sind, diese Site besuchen"
+
+#: src/templates/select-age.php:15
+msgid "Day"
+msgstr "Tag"
+
+#: src/templates/select-age.php:50
+msgid "Month"
+msgstr "Monat"
+
+#: src/templates/select-age.php:51
+msgid "January"
+msgstr "Januar"
+
+#: src/templates/select-age.php:52
+msgid "February"
+msgstr "Februar"
+
+#: src/templates/select-age.php:53
+msgid "March"
+msgstr "März"
+
+#: src/templates/select-age.php:54
+msgid "April"
+msgstr "April"
+
+#: src/templates/select-age.php:55
+msgid "May"
+msgstr "Mai"
+
+#: src/templates/select-age.php:56
+msgid "June"
+msgstr "Juni"
+
+#: src/templates/select-age.php:57
+msgid "July"
+msgstr "Juli"
+
+#: src/templates/select-age.php:58
+msgid "August"
+msgstr "August"
+
+#: src/templates/select-age.php:59
+msgid "September"
+msgstr "September"
+
+#: src/templates/select-age.php:60
+msgid "October"
+msgstr "Oktober"
+
+#: src/templates/select-age.php:61
+msgid "November"
+msgstr "November"
+
+#: src/templates/select-age.php:62
+msgid "December"
+msgstr "Dezember"
+
+#: src/woocommerce/class-agy-sofort-ident.php:101
+#: src/woocommerce/class-agy-sofort-ident.php:121
+msgid "Verify your age"
+msgstr "Alter verifizieren"
+
+#: src/woocommerce/class-agy-woocommerce-registration.php:108
+#, php-format
+msgid "The current user is at least %s years old."
+msgstr "Der aktuelle Benutzer ist mindestens% s Jahre alt."
+
+#. Plugin Name of the plugin/theme
+msgid "Agy"
+msgstr "Agy"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://patrickposner.dev"
+msgstr "https://patrickposner.dev"
+
+#. Description of the plugin/theme
+msgid ""
+"A simple, responsive and clean solution for age verification with "
+"WooCommerce."
+msgstr "Eine simple und mobile Lösung zur Altersverifikation mit WooCommerce."
+
+#. Author of the plugin/theme
+msgid "Patrick Posner"
+msgstr "Patrick Posner"
+
+#~ msgid ""
+#~ "Please deactivate the free version before activating the pro version of "
+#~ "Agy."
+#~ msgstr ""
+#~ "Bitte deaktiviere die kostenlose Version bevor du die Pro-Version von Agy "
+#~ "aktivierst."
+
+#~ msgid "<b>Deactivate</b> Age Gate for this content."
+#~ msgstr "<b>Deaktivere</b> das Age Gate für diesen Inhalt."
+
+#~ msgid "<b>Activate</b> Age Gate for this content."
+#~ msgstr "<b>Aktiviere</b> das Age Gate für diesen Inhalt."
+
+#~ msgid ""
+#~ "Updated from an older version of Agy? (formerly known as Passster Age "
+#~ "Gate) Please migrate your settings now."
+#~ msgstr ""
+#~ "Update von einer älteren Version von Agy? (früher Passster Age Gate). "
+#~ "Bitte migriere deine Einstellungen jetzt."
+
+#~ msgid "Migrate settings"
+#~ msgstr "Migrieren"
+
+#~ msgid "Restrictions"
+#~ msgstr "Restriktionen"
+
+#~ msgid "Whitelist or Blacklist"
+#~ msgstr "Whitelist oder Blacklist"
+
+#~ msgid ""
+#~ "<b>Whitelist:</b> select where the age gate should show.<br><b>Blacklist:"
+#~ "</b> select where the age gate should <b>not</b> show.<br><br><b>No "
+#~ "selection:</b> If you keep the following fields empty, the age gate show "
+#~ "everywhere (whitelist) or never (blacklist)."
+#~ msgstr ""
+#~ "<b>Whitelist:</b> wähle wo das Age Gate angezeigt werden soll."
+#~ "<br><b>Blacklist:</b> wähle wo das Age Gate <b>nicht</b> angezeigt werden "
+#~ "soll.</br></br><b>Keine Auswahl:</b> Wenn du die Felder leer lässt, wird "
+#~ "das Age Gate überall (Whitelist) oder nirgendwo (Blacklist) angezeigt."
+
+#~ msgid "How it works"
+#~ msgstr "So funktionierts"
+
+#~ msgid "Select Pages"
+#~ msgstr "Seiten auswählen"
+
+#~ msgid "Select Posts"
+#~ msgstr "Beiträge auswählen"
+
+#~ msgid "This include / exclude all posts from the selected category"
+#~ msgstr "Dies schließt alle Beiträge der gewählten Kategorie ein/aus"
+
+#~ msgid "Select Categories"
+#~ msgstr "Wähle Kategorien"
+
+#~ msgid "Age Gate"
+#~ msgstr "Age Gate"
+
+#~ msgid ""
+#~ "This option directly relates to your Whitelist settings from the "
+#~ "restrictions tab."
+#~ msgstr ""
+#~ "Diese Option steht in direktem Zusammenhang mit der Whitelist-Einstellung "
+#~ "vom Restriktionen-Tab."
+
+#~ msgid "Good to know"
+#~ msgstr "Gut zu wissen"
+
+#~ msgid "Restrict Products"
+#~ msgstr "Restriktiere Produkte"
+
+#~ msgid ""
+#~ "This include / exclude all products from the selected product category"
+#~ msgstr "Dies schließt alle Beiträge der gewählten Produkt-Kategorie ein/aus"
+
+#~ msgid "Restrict Product Categories"
+#~ msgstr "Restriktiere Produkt-Kategorien"
+
+#~ msgid "Exclude Products"
+#~ msgstr "Produkte ausschließen"
+
+#~ msgid ""
+#~ "This option requires a customer account ande the option \"Save Age "
+#~ "Information\" activated."
+#~ msgstr ""
+#~ "Diese Option bedingt einen Kunden-Account und das Aktivieren der Option "
+#~ "\"Altersinformationen im Kundenaccount speichern“."
+
+#~ msgid ""
+#~ "Exclude products from the shop if user has not matched the minimum age in "
+#~ "the verification"
+#~ msgstr ""
+#~ "Schließe Produkte von deinem Shop aus, wenn der Nutzer nicht das "
+#~ "vorgegebene Mindestalter hat"
+
+#~ msgid ""
+#~ "Exclude product categories from the shop if user has not matched the "
+#~ "minimum age in the verification"
+#~ msgstr ""
+#~ "Schließe Produkte aus Produkt-Kategorien von deinem Shop aus ,wenn der "
+#~ "Nutzer nicht das vorgegebene Mindestalter hat"
+
+#~ msgid "Exclude Product Categories"
+#~ msgstr "Produkte aus Produkt-Kategorien ausschließen"
+
+#~ msgid "Addons"
+#~ msgstr "Addons"
+
+#~ msgid ""
+#~ "All Addons are included in the <b>pro version of Passster Age Gate</b>. "
+#~ "Activate and use the advanced features to get the maximum of out of age "
+#~ "verification"
+#~ msgstr ""
+#~ "Alle Addons sind in der <b>Pro-Version von Passten Age Gate</b> "
+#~ "enthalten. Aktivere und nutze die erweiterten Funktionen um das Maximum "
+#~ "aus der Lösung für Altersverifikation heraus zu holen"
+
+#~ msgid "Explanation"
+#~ msgstr "Erklärung"
+
+#~ msgid ""
+#~ "The WooCommerce Addon allows you to whitelist/blacklist products from the "
+#~ "age gate, exclude products from your store if the age does not match, add "
+#~ "age verification to registration and checkout and save the age of your "
+#~ "customers."
+#~ msgstr ""
+#~ "Das WooCommerce Addon erlaubt dir die Whitelist/Blacklist auch für "
+#~ "Produkte zu nutzen. Außerdem kannst du Produkt vom Shop ausschließen, "
+#~ "wenn ein Nutzer nicht das entsprechende Alter hat. Füge eine "
+#~ "Altersbestätigung in Registrierung und Kasse ein und speichere das Alter "
+#~ "deiner Kunden im Kundenprofil."
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "Activate WooCommerce Addon"
+#~ msgstr "WooCommerce Addon aktivieren"
+
+#~ msgid "Additional Verification Modes"
+#~ msgstr "Zusätzliche Verifikationsdesigns Addon"
+
+#~ msgid ""
+#~ "The Additional Verification Modes Addon enhance Passster Age Gate with "
+#~ "multiple new design options for your age verification. Add a date picker "
+#~ "or use a simple age slider to let users verify their age."
+#~ msgstr ""
+#~ "Das Zusätzliche Verifikationsdesigns Addon erweitert Passster Age Gate um "
+#~ "neue Designs für die Altersverifikation. Nutze einen Datumwähler oder "
+#~ "einen Slider um die Verifikation deiner Besucher noch effektiver zu "
+#~ "machen."
+
+#~ msgid "Activate Additional Verification Modes Addon"
+#~ msgstr "Zusätzliche Verifikationsdesigns aktivieren"
+
+#~ msgid "Options"
+#~ msgstr "Optionen"
+
+#~ msgid ""
+#~ "When you activate the testmode, the age gate box will never close, so you "
+#~ "can test every button and setting without reset the session."
+#~ msgstr ""
+#~ "Wenn der Testmodus aktiviert ist, wird die Session-Vergabe deaktiviert. "
+#~ "So kannst du jeden Button und jede Einstellung testen ohne das eine "
+#~ "Session gesetzt wird und das Age Gate verschwindet."
+
+#~ msgid "How to test"
+#~ msgstr "Wie man testet"
+
+#~ msgid "Session"
+#~ msgstr "Session"
+
+#~ msgid "Name of the age gate session key"
+#~ msgstr "Name des Session"
+
+#~ msgid "Session name"
+#~ msgstr "Session-Name"
+
+#, php-format
+#~ msgid ""
+#~ "Thanks for using <b>Passster Age Gate</b>! Begin to setup your gate in "
+#~ "your <a href=\"%s\">customizer</a>."
+#~ msgstr ""
+#~ "Danke, dass du <b>Passster Age Gate</b> benutzt! Beginne die Einrichtung "
+#~ "deines Age Gates am Besten im <a href=„%s“>Customizer</a>."
+
+#~ msgid "Passster Age Gate"
+#~ msgstr "Passster Age Gate"
+
+#~ msgid "Layout Mode"
+#~ msgstr "Layout-Modus"
+
+#~ msgid "#page"
+#~ msgstr "#page"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "Colors"
+#~ msgstr "Farben"
+
+#~ msgid "Copy Shortcode"
+#~ msgstr "Shortcode kopieren"
+
+#~ msgid "Copy Link"
+#~ msgstr "Link kopieren"
+
+#, php-format
+#~ msgid ""
+#~ "By clicking enter, I certify that I am over the age of <b>%s</b> and will "
+#~ "comply with the above statement."
+#~ msgstr ""
+#~ "Mit klicken auf \"Ja\" bestätige ich, dass ich das notwendige Alter von "
+#~ "<b>%s</b> habe und diesen Inhalt sehen darf."
+
+#~ msgid "A modern and rock solid approach to age verification for your site."
+#~ msgstr ""
+#~ "Ein moderner und performanter Ansatz zur Alterverifikation für deine "
+#~ "Website."
+
+#~ msgid "Passster - Age Verfication"
+#~ msgstr "Passster - Age Gate"
